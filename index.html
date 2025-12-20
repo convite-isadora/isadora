@@ -411,7 +411,7 @@ setTimeout(()=>{
 const music = document.getElementById('bgMusic');
 const overlay = document.getElementById('audioOverlay');
 
-music.volume = 0.03;
+music.volume = 0.1;
 
 const savedTime = localStorage.getItem('musicTime');
 if (savedTime) music.currentTime = parseFloat(savedTime);
