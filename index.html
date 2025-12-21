@@ -293,6 +293,13 @@ body::after{
 .sub-modal-content h3{ color:#4a3b00; }
 .sub-modal-content li{ color:#3b2a00; }
 
+.icon-whatsapp {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 6px;
+}  
+
 #audioOverlay{
   position: fixed;
   inset: 0;
@@ -320,9 +327,10 @@ body::after{
 <div class="modal" id="modalPrincipal">
   <div class="modal-content">
     <span class="close" data-close="modalPrincipal">&times;</span>
+    <button class="modal-button" id="confirmePresenca">
+       <img src="assets/whatsapp.png" alt="WhatsApp" class="icon-whatsapp">✅ Confirmar Presença - ATÉ 05/01</button>
     <button class="modal-button" id="dressCode">👗 Dress Code</button>
     <button class="modal-button" id="verRota">📍 Ver Rota</button>
-    <button class="modal-button" id="confirmePresenca">✅ Confirmar Presença</button>
     <button class="modal-button" id="presentear">🎁 Presentear</button>
   </div>
 </div>
